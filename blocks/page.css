@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.page {
+  max-width: 1280px;
+  min-width: 320px;
+  font-family: 'Inter', 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000000;
+  padding: 45px 0 60px;
+}
+
+.page__header {
+  margin-left: 200px;
+}
