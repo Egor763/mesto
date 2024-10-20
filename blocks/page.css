@@ -15,8 +15,21 @@
   align-items: center;
   background-color: #000000;
   padding: 45px 0 60px;
+  overflow-x: hidden;
+  position: relative;
 }
 
 .page__header {
   margin-left: 200px;
+}
+
+@media screen and (max-width: 700px) {
+  .page__profile {
+    margin-left: 40px;
+  }
+}
+
+.hover__link:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }

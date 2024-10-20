@@ -14,19 +14,91 @@
     <img class="header__logo" src="./images/logo.png" alt="Логотип">
   </header>
 
-  <section class="profile">
+  <section class="profile page__profile">
     <div class="profile__container">
       <img class="profile__image" src="./images/Avatar.png" alt="Аватар">
       <div class="profile__info">
         <h1 class="profile__title">Жак-Ив Кусто</h1>
         <p class="profile__proffesion">Ислледователь океана</p>
-        <button class="profile__button" type="button"><img class="profile__button-image" src="./images/Edit Button.svg"
-            alt="Редактирование"></button>
+        <button class="profile__button hover__link" type="button"><img class="profile__button-image"
+            src="./images/Edit Button.svg" alt="Редактирование"></button>
       </div>
     </div>
-    <button class="profile__add-card" type="button"><img class="profile__add-card-image" src="./images/Add Button.png"
-        alt="Добавить карточку"></button>
+    <button class="profile__add-card hover__link" type="button"><img class="profile__add-card-image"
+        src="./images/Add Button.png" alt="Добавить карточку"></button>
   </section>
+
+  <section class="cards">
+    <ol class="cards__container">
+      <li class="card">
+        <img class="card__image" src="./images/Karachaevsk.png" alt="Карачаевск">
+        <div class="card__container">
+          <h2 class="card__title">Карачаевск</h2>
+          <button class="card__like hover__link" type="button"><img class="card__like-image" src="./images/Group.svg"
+              alt="Лайк"></button>
+        </div>
+      </li>
+      <li class="card">
+        <img class="card__image" src="./images/Elbrus.png" alt="Эльбрус">
+        <div class="card__container">
+          <h2 class="card__title">Гора Эльбрус</h2>
+          <button class="card__like hover__link" type="button"><img class="card__like-image" src="./images/Group.svg"
+              alt="Лайк"></button>
+        </div>
+      </li>
+      <li class="card">
+        <img class="card__image" src="./images/Dombai.png" alt="Домбай">
+        <div class="card__container">
+          <h2 class="card__title">Домбай</h2>
+          <button class="card__like hover__link" type="button"><img class="card__like-image" src="./images/Group.svg"
+              alt="Лайк"></button>
+        </div>
+      </li>
+      <li class="card">
+        <img class="card__image" src="./images/Elbrus.png" alt="Эльбрус">
+        <div class="card__container">
+          <h2 class="card__title">Гора Эльбрус</h2>
+          <button class="card__like hover__link" type="button"><img class="card__like-image" src="./images/Group.svg"
+              alt="Лайк"></button>
+        </div>
+      </li>
+      <li class="card">
+        <img class="card__image" src="./images/Dombai.png" alt="Домбай">
+        <div class="card__container">
+          <h2 class="card__title">Домбай</h2>
+          <button class="card__like hover__link" type="button"><img class="card__like-image" src="./images/Group.svg"
+              alt="Лайк"></button>
+        </div>
+      </li>
+      <li class="card">
+        <img class="card__image" src="./images/Karachaevsk.png" alt="Карачаевск">
+        <div class="card__container">
+          <h2 class="card__title">Карачаево-Черкессия</h2>
+          <button class="card__like hover__link" type="button"><img class="card__like-image" src="./images/Group.svg"
+              alt="Лайк"></button>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <footer class="footer">
+    <p class="footer__copyright">&copy; 2020 Mesto Russia</p>
+  </footer>
+
+  <section class="popup">
+    <div class="popup__container">
+      <button class="popup__close-button hover__link" type="button"><img class="popup__close-icon"
+          src="./images/Close Icon.svg" alt="Закрыть"></button>
+      <h2 class="popup__title">Редактировать профиль</h2>
+      <form class="popup__form">
+        <input class="form__input" id="input__name" type="text" placeholder="Имя">
+        <input class="form__input" id="input__name" type="text" placeholder="Профессия">
+        <button class="form__button hover__link" type="button">Сохранить</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="index.js"></script>
 </body>
 
 </html>

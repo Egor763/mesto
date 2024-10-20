@@ -1,0 +1,55 @@
+.cards {
+  max-width: 880px;
+}
+
+.cards__container {
+  width: 100%;
+  margin: 55px 0 66px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 17px;
+}
+
+.card {
+  width: 282px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.card__image {
+  width: 282px;
+  height: 282px;
+}
+
+.card__container {
+  width: 282px;
+  height: 79px;
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10px 0 15px;
+}
+
+.card__title {
+  width: 224px;
+  line-height: 23px;
+  font-size: 24px;
+  font-weight: 900;
+  align-self: center;
+  text-overflow: ellipsis;
+  text-wrap: nowrap;
+  overflow: hidden;
+}
+
+.card__like {
+  width: 22px;
+  height: 19px;
+  align-self: center;
+  background: transparent;
+  border: none;
+}
+
+.card__like-image {
+  width: 22px;
+  height: 19px;
+}

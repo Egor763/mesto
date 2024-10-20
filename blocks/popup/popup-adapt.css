@@ -1,0 +1,42 @@
+@media screen and (max-width: 700px) {
+  .popup {
+    width: 320px;
+  }
+
+  .popup__container {
+    width: 282px;
+  }
+
+  .popup__close-button {
+    width: 20px;
+    height: 20px;
+    top: -36px;
+    right: 0;
+  }
+
+  .popup__close-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .popup__title {
+    width: 238px;
+    line-height: 22px;
+    font-size: 18px;
+  }
+
+  .popup__form {
+    width: 238px;
+  }
+
+  .form__input {
+    width: 238px;
+  }
+
+  .form__button {
+    width: 238px;
+    height: 46px;
+    line-height: 18px;
+    font-size: 14px;
+  }
+}
