@@ -9,7 +9,20 @@
   display: none;
 }
 
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  background: #000;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+}
+
 .popup__active {
+  display: flex;
+}
+
+.popup__add-card-active {
   display: flex;
 }
 

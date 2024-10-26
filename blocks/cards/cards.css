@@ -14,11 +14,27 @@
   width: 282px;
   border-radius: 6px;
   overflow: hidden;
+  position: relative;
 }
 
 .card__image {
   width: 282px;
   height: 282px;
+}
+
+.card__basket {
+  width: 18px;
+  height: 19px;
+  position: absolute;
+  top: 20px;
+  right: 37px;
+  background: transparent;
+  border: none;
+}
+
+.card__basket-image {
+  width: 18px;
+  height: 19px;
 }
 
 .card__container {
